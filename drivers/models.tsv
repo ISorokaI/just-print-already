@@ -1,0 +1,13 @@
+# match	name	manufacturer	filter	model	tested
+# match: case-insensitive substring of the USB model name (first row wins).
+# model: *cupsModelNumber read by the filter (rastertozjs: 0 2300DL, 1 HP1020, 2 HP Pro, 4 HP M1132).
+# Not here yet: LJ 1000/1005/1018/1020 (need a firmware upload on every power-on), CP1025nw (color PPD).
+M113	HP LaserJet Professional M1130 MFP series	HP	rastertozjs	4	yes
+P1102	HP LaserJet Professional P1102	HP	rastertozjs	2	no
+P1566	HP LaserJet Professional P1566	HP	rastertozjs	2	no
+P1606	HP LaserJet Professional P1606dn	HP	rastertozjs	2	no
+1022	HP LaserJet 1022	HP	rastertozjs	1	no
+M1319	HP LaserJet M1319 MFP	HP	rastertozjs	1	no
+P2035	HP LaserJet P2035	HP	rastertozjs	1	no
+2300 DL	Minolta magicolor 2300 DL	Minolta	rastertozjs	0	no
+2200 DL	Minolta magicolor 2200 DL	Minolta	rastertozjs	0	no
